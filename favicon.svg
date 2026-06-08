@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#0D1A2F"/>
+  <!-- Water tank on top of gun -->
+  <rect x="14" y="14" width="28" height="14" rx="5" fill="#38D8F5"/>
+  <!-- T on tank -->
+  <text x="28" y="25" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="13" fill="#0D1A2F" text-anchor="middle">T</text>
+  <!-- Main gun barrel -->
+  <rect x="10" y="25" width="46" height="14" rx="5" fill="#00C8FF"/>
+  <!-- Nozzle tip -->
+  <rect x="54" y="27" width="8" height="10" rx="3" fill="#00E5FF"/>
+  <!-- Handle -->
+  <rect x="24" y="36" width="12" height="20" rx="4" fill="#00A8DB"/>
+  <!-- Trigger guard curve -->
+  <ellipse cx="30" cy="52" rx="6" ry="5" fill="none" stroke="#00C8FF" stroke-width="2"/>
+  <!-- Water drops -->
+  <circle cx="65" cy="30" r="2.5" fill="#80F0FF" opacity="0.8"/>
+</svg>
