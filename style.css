@@ -1977,3 +1977,62 @@ ol {
   letter-spacing: 0.04em;
   margin-top: 3px;
 }
+
+.notice {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 16px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.notice p {
+  margin: 0 0 1.2em;
+}
+
+.notice__heading {
+  font-size: 1.25em;
+  line-height: 1.5;
+  margin: 0 0 1em;
+}
+
+.notice__subheading {
+  font-size: 1.1em;
+  line-height: 1.5;
+  margin: 1.5em 0 0.8em;
+}
+
+.notice__chat-link a {
+  word-break: break-all;
+}
+
+@media (max-width: 480px) {
+  .notice {
+    font-size: 15px;
+    padding: 0 12px;
+  }
+}
+
+/* 視覚的には隠すがスクリーンリーダーには読ませる */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.notice__heading::before,
+.notice__subheading::before {
+  content: "■ ";
+}
+
+.notice__schedule dt {
+  font-weight: bold;
+  margin-top: 0.5em;
+}
+
+.notice__schedule dd {
+  margin: 0 0 0.5em 1em;
+}
